@@ -10,3 +10,5 @@ Instructions for building on DevTerm-A06
 * ./virtualt
 
 ![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
+
+(Origianl source comes from defunct project: https://sourceforge.net/projects/virtualt/)
