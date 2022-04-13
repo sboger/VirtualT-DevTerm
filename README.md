@@ -16,4 +16,5 @@ Instructions for building on DevTerm-A06 (and A04. Maybe. Needs testing.)
 
 Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~
+* Make deb packages
 * Fullscreen fix
