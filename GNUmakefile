@@ -41,7 +41,7 @@ endif
 # =============================
 FLTKCONFIG  =   $(shell which fltk-config)
 ifneq ($(FLTKCONFIG),)
-FLTKLIB     =   $(shell $(FLTKCONFIG) --use-images --libs)
+FLTKLIB     =   $(shell $(FLTKCONFIG) --use-images --libs --ldflags)
 CFLAGS      +=  $(shell $(FLTKCONFIG) --use-images --cflags)
 CPPFLAGS    +=  $(shell $(FLTKCONFIG) --use-images --cxxflags)
 endif
