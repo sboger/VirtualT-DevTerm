@@ -125,7 +125,7 @@ int						gNoGUI = 0;
 int						gRemoteSwitchModel = -1;
 
 //Added J. VERNET
-char					path[512];
+//char					path[512];
 char					file[512];
 #ifdef __APPLE__
 char					gOsxBundlePath[512];
