@@ -1,0 +1,1 @@
+FLTKLIBEXTRA = "--ldflags"
