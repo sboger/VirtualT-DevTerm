@@ -8,3 +8,5 @@ Instructions for building on DevTerm-A06
 * sudo apt install libfltk1.3-dev libjpeg-dev libpng-dev libxft-dev libxinerama-dev libxext-dev
 * make
 * ./virtualt
+
+![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
