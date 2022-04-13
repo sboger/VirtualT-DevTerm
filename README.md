@@ -1,7 +1,7 @@
 # VirtualT-DevTerm
 VirtualT is a TRS-80 Model 100/102/200 emulator for ClockworkPi DevTerm
 
-Instructions for building on DevTerm-A06
+Instructions for building on DevTerm-A06 (and A04. Maybe. Needs testing.)
 
 * git clone https://github.com/sboger/VirtualT-DevTerm.git
 * cd VirtualT-DevTerm 
