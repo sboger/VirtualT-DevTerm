@@ -12,3 +12,8 @@ Instructions for building on DevTerm-A06
 ![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
 
 (Original source comes from defunct project: https://sourceforge.net/projects/virtualt/)
+
+
+Todo:
+* Makefile cleanup to allow building on A04 (in progress)
+* Fullscreen fix
