@@ -37,7 +37,7 @@ Flu_DND_Event :: ~Flu_DND_Event()
 void Flu_DND_Event :: clear()
 {
   // reset everything
-  objUnderMouse = false;
+  objUnderMouse = NULL;
   dragging = false;
   exit = false;
   if(_text) free(_text); _text = 0;
