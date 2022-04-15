@@ -27,6 +27,8 @@ Screenshots:
 
 ![Screenshot](/doc/Screenshot%20from%202022-04-15%2002-06-26.png)
 
+![Screenshot](/doc/devterm-basic.gif)
+
 
 Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~
