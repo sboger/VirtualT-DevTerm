@@ -15,6 +15,7 @@ Instructions for building on DevTerm A06 and A04:
 
 Instructions to run pre-built binary (untested, built on A06):
 
+* sudo apt install libfltk-images1.3
 * git clone https://github.com/sboger/VirtualT-DevTerm.git
 * cd VirtualT-DevTerm
 * chmod +x virtualt-devterm
