@@ -6,6 +6,20 @@ VirtualT Release.txt
 This file lists the changes and additions for each of the versions of VirtualT since v0.3
 
 =====================
+v1.7.1 4/15/2022
+=====================
+
+1.  Project forked and renamed to VirtualT-DevTerm
+
+2.  Moved non-devterm files to cruft directory
+
+3.  Fixed makefile to build on DevTerm A04 and A06
+
+4.  Fixed reset in src/Flu_DND.cpp
+
+5.  Commented out twice defined path in src/m100emu.c
+
+=====================
 v1.7 4/7/2014
 =====================
 
