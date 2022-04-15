@@ -21,6 +21,9 @@ Instructions to run pre-built binary (untested, built on A06):
 * ./virtualt-devterm
 
 
+Complete TRS-80 Model 100 user manual: https://github.com/sboger/VirtualT-DevTerm/blob/master/trs80-m100-user-manual.pdf
+
+
 Screenshots:
 
 ![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
@@ -35,7 +38,6 @@ Todo:
 * ~~Cruft cleanup. Going DevTerm specific.~~
 * Make deb packages
 * Fullscreen fix
-
 
 
 Nostalgia (from https://en.wikipedia.org/wiki/TRS-80_Model_100):
