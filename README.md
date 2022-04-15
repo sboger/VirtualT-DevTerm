@@ -9,7 +9,7 @@ Instructions for building on DevTerm-A06 and A04.
 * cd VirtualT-DevTerm 
 * sudo apt install libfltk1.3-dev libjpeg-dev libpng-dev libxft-dev libxinerama-dev libxext-dev
 * make
-* ./virtualt
+* ./virtualt-devterm
 
 ![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
 
