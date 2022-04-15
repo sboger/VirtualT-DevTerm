@@ -35,3 +35,13 @@ Todo:
 * ~~Cruft cleanup. Going DevTerm specific.~~
 * Make deb packages
 * Fullscreen fix
+
+
+
+Nostalgia (from https://en.wikipedia.org/wiki/TRS-80_Model_100):
+* The TRS-80 Model 100 was a portable computer introduced in 1983. It is one of the first notebook-style computers, featuring a keyboard and liquid crystal display, in a battery-powered package roughly the size and shape of a notepad or large book.
+* When first switched on, the Model 100 displays a menu of applications and files and the date and time. The ROM firmware-based system boots instantly
+* The ROM also contains a terminal program, TELCOM; an address/phone book organizer, ADDRSS; a to-do list organizer, SCHEDL; and a simple text editor, TEXT. The TELCOM program allows automation of a login sequence to a remote system under control of the BASIC interpreter.
+* The Model 100 was promoted as being able to run up to 20 hours and maintain memory up to 30 days on a set of four alkaline AA batteries.
+* When introduced, the portability and simplicity of the Model 100 made it attractive to journalists, who could type about 11 pages of text and then transmit it for electronic editing and production using the built-in modem and TELCOM program.
+* The Model 100 firmware was the last Microsoft product that Bill Gates developed personally, along with Suzuki. According to Gates, "part of my nostalgia about this machine is this was the last machine where I wrote a very high percentage of the code in the product"
