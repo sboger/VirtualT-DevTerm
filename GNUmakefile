@@ -11,7 +11,6 @@
 .SILENT:
 
 -include $(shell uname).mk
--include $(shell uname -n).mk
 
 # ====================================
 # Define base gcc compiler environment
@@ -42,7 +41,7 @@ endif
 # =============================
 FLTKCONFIG  =   $(shell which fltk-config)
 ifneq ($(FLTKCONFIG),)
-FLTKLIB     =   $(shell $(FLTKCONFIG) --use-images --libs $(FLTKLIBEXTRA))
+FLTKLIB     =   $(shell $(FLTKCONFIG) --use-images --libs --ldflags)
 CFLAGS      +=  $(shell $(FLTKCONFIG) --use-images --cflags)
 CPPFLAGS    +=  $(shell $(FLTKCONFIG) --use-images --cxxflags)
 endif
