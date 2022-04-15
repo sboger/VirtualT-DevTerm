@@ -20,8 +20,12 @@ Instructions to run pre-built binary (untested, built on A06):
 * chmod +x virtualt-devterm
 * ./virtualt-devterm
 
+
+Screenshots:
+
 ![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
 
+![Screenshot](/doc/Screenshot%20from%202022-04-15%2002-06-26.png)
 
 
 Todo:
