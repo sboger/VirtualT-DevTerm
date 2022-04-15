@@ -26,8 +26,8 @@ endif
 
 CFLAGS		+=	 -I $(SRCDIR)/FLU $(OPTIMIZE) $(DEBUG) -fsigned-char
 CPPFLAGS	+=	 -I $(SRCDIR) $(OPTIMIZE) $(DEBUG)
-VIRTUALT	=	 virtualt
-CLIENT		=	 vt_client
+VIRTUALT	=	 virtualt-devterm
+CLIENT		=	 #vt_client
 ifndef CC
   CC		=    $(CROSS_COMPILE)gcc
 else
@@ -192,8 +192,8 @@ clean:
 	@echo "Objects..."
 	@-rm -rf $(OBJDIR) $(DEPDIR)
 	@echo "Executables..."
-	-rm -f virtualt 
-	-rm -rf vt_client
+	-rm -f $(VIRTUALT)
+	#-rm -rf vt_client
 
 # ================================================
 # Provide info for building FLTK, Tiger, Leopard versions
