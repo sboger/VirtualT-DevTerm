@@ -8,6 +8,7 @@ Instructions for building on DevTerm A06 and A04:
 * git clone https://github.com/sboger/VirtualT-DevTerm.git
 * cd VirtualT-DevTerm 
 * sudo apt install libfltk1.3-dev libjpeg-dev libpng-dev libxft-dev libxinerama-dev libxext-dev
+* make clean
 * make
 * ./virtualt-devterm
 
