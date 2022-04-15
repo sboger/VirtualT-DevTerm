@@ -1,5 +1,5 @@
 # VirtualT-DevTerm
-VirtualT-DevTerm is a TRS-80 Model 100/102/200 emulator by [deuce](https://sourceforge.net/u/deuce/profile/) & [kpettit1](https://sourceforge.net/u/kpettit1/profile/) repurposed for the ClockworkPi DevTerm by [sboger](https://github.com/sboger)
+VirtualT-DevTerm is a TRS-80 Model 100/102/200 emulator by [deuce](https://sourceforge.net/u/deuce/profile/) & [kpettit1](https://sourceforge.net/u/kpettit1/profile/) repurposed for the ClockworkPi DevTerm A04 & A06 by [sboger](https://github.com/sboger)
 
 Original source comes from the now defunct project at: https://sourceforge.net/projects/virtualt/
 
@@ -26,6 +26,6 @@ Instructions for building on DevTerm-A06 and A04:
 
 Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~
-* Cruft cleanup. Going DevTerm specific.
+* ~~Cruft cleanup. Going DevTerm specific.~~
 * Make deb packages
 * Fullscreen fix
