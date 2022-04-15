@@ -3,7 +3,16 @@ VirtualT-DevTerm is a TRS-80 Model 100/102/200 emulator by [deuce](https://sourc
 
 Original source comes from the now defunct project at: https://sourceforge.net/projects/virtualt/
 
-Instructions for building on DevTerm-A06 and A04.
+Download binary or build yourself.
+
+Instructions to run pre-built binary (untested):
+
+* git clone https://github.com/sboger/VirtualT-DevTerm.git
+* cd VirtualT-DevTerm
+* chmod +x virtualt-devterm
+* ./virtualt-devterm
+
+Instructions for building on DevTerm-A06 and A04:
 
 * git clone https://github.com/sboger/VirtualT-DevTerm.git
 * cd VirtualT-DevTerm 
