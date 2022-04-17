@@ -22,8 +22,8 @@ Instructions for building on DevTerm A04 and A06:
 * make
 * ./virtualt-devterm
 
-
-Complete TRS-80 Model 100 user manual: https://github.com/sboger/VirtualT-DevTerm/blob/master/trs80-m100-user-manual.pdf
+Bug:
+* On first run, Emulation->Display "3x" is set. If you switch to Emulation->Display "DevTerm" the application window doesn't reset it's position and leaves space on the left of the screen. To work around this, just close and re-open the application. It will remember your "Devterm" Display choice and properly center the window on the screen.
 
 
 Screenshots:
@@ -34,10 +34,8 @@ Screenshots:
 
 ![Screenshot](/doc/devterm-basic.gif)
 
+Complete TRS-80 Model 100 user manual: https://github.com/sboger/VirtualT-DevTerm/blob/master/trs80-m100-user-manual.pdf
 
-
-Bug:
-* On first run, Display "3x" is set. If you switch to Display "DevTerm" the application window doesn't reset it's position and leaves space on the left of the screen. To work around this, just close and re-open the application. It will remember your "Devterm" Display choice and properly center the window on the screen.
 
 Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~
