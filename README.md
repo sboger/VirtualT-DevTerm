@@ -3,7 +3,7 @@ VirtualT-DevTerm is a TRS-80 Model 100/102/200 emulator by [deuce](https://sourc
 
 Original source comes from the now defunct project at: https://sourceforge.net/projects/virtualt/
 
-**New: v1.7.2 4/17/2022 - "DevTerm" display mode. Almost fullscreen.**
+**New: v1.7.2 4/17/2022 - "DevTerm" Emulation->Display option. Almost fullscreen.**
 
 Instructions to run pre-built binary (Runs on A06. A04 untested.):
 
