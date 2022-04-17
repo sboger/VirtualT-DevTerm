@@ -28,11 +28,12 @@ Complete TRS-80 Model 100 user manual: https://github.com/sboger/VirtualT-DevTer
 
 Screenshots:
 
-![Screenshot](/doc/Screenshot_2022-04-12_16-30-12.png)
+![Screenshot](/doc/virtualt-devterm-display-mode.gif)
 
 ![Screenshot](/doc/Screenshot%20from%202022-04-15%2002-06-26.png)
 
 ![Screenshot](/doc/devterm-basic.gif)
+
 
 
 Bug:
