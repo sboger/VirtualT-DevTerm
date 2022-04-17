@@ -22,7 +22,7 @@ Instructions for building on DevTerm A04 and A06:
 * ./virtualt-devterm
 
 Notes:
-* VirtualT-DevTerm starts in 3x display size by default. Click the Emulation menu and then the Display menu to choose 1x, 2x, 4x, or DevTerm display size. There is currently a bug with Devterm display size that places the window offscreen. To work around this, just close and re-open the application. It will remember your "Devterm" Display choice and properly center the window on the screen. [You can see a 20 second video demostrating it here.](https://github.com/sboger/VirtualT-DevTerm/blob/master/doc/virtualt-devterm-display-reopen.gif)
+* VirtualT-DevTerm starts in 3x display size by default. Click the Emulation menu and then the Display menu to choose 1x, 2x, 4x, or DevTerm display size. There is currently a bug with Devterm display size that places the window offscreen. To work around this, just close and re-open the application. 
 
 
 Screenshots:
