@@ -1,4 +1,5 @@
 .dep/
+.vscode
 obj/
 vt_client
 KC85/

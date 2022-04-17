@@ -23,7 +23,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "FLU/flu_export.h"
+#include "flu_export.h"
 
 //! This class extends Fl_Button to make a more attractive alternative that hilights as the mouse enters/leaves and automatically grayscales any image for deactivation
 class FLU_EXPORT Flu_Button : public Fl_Button

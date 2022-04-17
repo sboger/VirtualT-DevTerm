@@ -3,6 +3,7 @@ VirtualT-DevTerm is a TRS-80 Model 100/102/200 emulator by [deuce](https://sourc
 
 Original source comes from the now defunct project at: https://sourceforge.net/projects/virtualt/
 
+**New: v1.7.2 4/17/2022 - "DevTerm" display mode. Almost fullscreen.**
 
 Instructions to run pre-built binary (Runs on A06. A04 untested.):
 
@@ -33,6 +34,9 @@ Screenshots:
 
 ![Screenshot](/doc/devterm-basic.gif)
 
+
+Bug:
+* On first run, Display "3x" is set. If you switch to Display "DevTerm" the application window doesn't reset it's position and leaves space on the left of the screen. To work around this, just close and re-open the application. It will remember your "Devterm" Display choice and properly center the window on the screen.
 
 Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~

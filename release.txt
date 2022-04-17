@@ -6,6 +6,12 @@ VirtualT Release.txt
 This file lists the changes and additions for each of the versions of VirtualT since v0.3
 
 =====================
+v1.7.2 4/17/2022
+=====================
+
+1.  Added "DevTerm" display option that is 1280x480.
+
+=====================
 v1.7.1 4/15/2022
 =====================
 
