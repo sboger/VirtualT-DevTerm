@@ -27,7 +27,7 @@ Notes:
 
 Screenshots:
 
-![Screenshot](/doc/virtualt-devterm-display-mode.gif)
+![Screenshot](/doc/virtualt-devterm-display-reopen.gif)
 
 ![Screenshot](/doc/Screenshot%20from%202022-04-15%2002-06-26.png)
 
