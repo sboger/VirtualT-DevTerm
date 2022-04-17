@@ -2,8 +2,8 @@
 VirtualT Release.txt
 ====================
 
-
 This file lists the changes and additions for each of the versions of VirtualT since v0.3
+
 
 =====================
 v1.7.2 4/17/2022

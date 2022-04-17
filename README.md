@@ -42,7 +42,7 @@ Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~
 * ~~Cruft cleanup. Going DevTerm specific.~~
 * Make deb packages
-* Fullscreen fix
+* Fullscreen fix (DevTerm Display mode for now)
 
 
 Nostalgia (from https://en.wikipedia.org/wiki/TRS-80_Model_100):
