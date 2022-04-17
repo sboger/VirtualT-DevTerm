@@ -686,6 +686,15 @@ void cb_4x(Fl_Widget* w, void*)
 	virtualt_prefs.set("MultFact",4);
 	resize_window();
 }
+void cb_5x(Fl_Widget* w, void*)
+{
+	gpDisp->MultFact = 5;
+	MultFact = 5;
+	Fullscreen = 0;
+
+	virtualt_prefs.set("MultFact",5);
+	resize_window();
+}
 void cb_fullscreen(Fl_Widget* w, void*)
 {
 	gpDisp->MultFact = 5;
@@ -1348,7 +1357,8 @@ Fl_Menu_Item menuitems[] = {
 		{ "2x",  0, cb_2x, (void *) 2, FL_MENU_RADIO },
 		{ "3x",  0, cb_3x, (void *) 3, FL_MENU_RADIO | FL_MENU_VALUE},
 		{ "4x",  0, cb_4x, (void *) 4, FL_MENU_RADIO },
-		{ "Fullscreen",  0, cb_fullscreen, (void *) 5, FL_MENU_RADIO | FL_MENU_DIVIDER},
+		{ "DevTerm",  0, cb_5x, (void *) 5, FL_MENU_RADIO },
+		{ "Fullscreen",  0, cb_fullscreen, (void *) 6, FL_MENU_RADIO | FL_MENU_DIVIDER},
 		{ "Framed",  0, cb_framed, (void *) 1, FL_MENU_TOGGLE|FL_MENU_VALUE },
 		{ "Solid Chars",  0, cb_solidchars, (void *) 1, FL_MENU_TOGGLE | FL_MENU_DIVIDER},
 		{ "Display Colors",  0, cb_display_colors, 0, 0 },
@@ -2013,7 +2023,7 @@ void init_pref(void)
 	
 	Fullscreen = 0;
 	if (MultFact == 5)
-		Fullscreen = 1;
+		//Fullscreen = 1;
 
 	get_model_string(option_name, gModel);
 	strcat(option_name, "_OptRomFile");
@@ -2133,7 +2143,7 @@ void init_display(void)
 	// Check if we are running in full screen mode
 	if (MultFact == 5)
 	{
-		MainWin->fullscreen();
+		//MainWin->fullscreen();
 #ifdef WIN32
 		int sx, sy, sw, sh;
 		Fl::screen_xywh(sx, sy, sw, sh);
@@ -2141,7 +2151,7 @@ void init_display(void)
 			hiddenTaskBarAdjust = 4;
 		MainWin->resize(sx, sy, sw, sh-hiddenTaskBarAdjust);
 #endif	/* WIN32 */
-		MultFact = min(MainWin->w()/240, MainWin->h()/128);
+		//MultFact = min(MainWin->w()/240, MainWin->h()/128);
 	}
 	else
 	{
