@@ -12,7 +12,6 @@ Instructions to run pre-built binary (Runs on A06. A04 untested.):
 * cd VirtualT-DevTerm
 * ./virtualt-devterm
 
-
 Instructions for building on DevTerm A04 and A06:
 
 * sudo apt install libfltk1.3-dev libjpeg-dev libpng-dev libxft-dev libxinerama-dev libxext-dev
@@ -22,8 +21,8 @@ Instructions for building on DevTerm A04 and A06:
 * make
 * ./virtualt-devterm
 
-Bug:
-* On first run, Emulation->Display "3x" is set. If you switch to Emulation->Display "DevTerm" the application window doesn't reset it's position and leaves space on the left of the screen. To work around this, just close and re-open the application. It will remember your "Devterm" Display choice and properly center the window on the screen.
+Notes:
+* VirtualT-DevTerm starts in 3x display size by default. Click the Emulation menu and then the Display menu to choose 1x, 2x, 4x, or DevTerm display size. There is currently a bug with Devterm display size that places the window offscreen. To work around this, just close and re-open the application. It will remember your "Devterm" Display choice and properly center the window on the screen. [You can see a 20 second video demostrating it here.](https://github.com/sboger/VirtualT-DevTerm/blob/master/doc/virtualt-devterm-display-reopen.gif)
 
 
 Screenshots:
