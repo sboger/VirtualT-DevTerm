@@ -251,16 +251,16 @@ void VTTDockVid::CalcScreenCoords(void)
 		::gRectsize = 1;
 
 	// Calculate xoffset and yoffset
-	if (Fullscreen)
-	{
-		::gXoffset = parent()->w() / 2 - 240 * MultFact;
-		::gYoffset = (parent()->h() - MENU_HEIGHT - 20 - 200 * MultFact) / 3 + MENU_HEIGHT+1;
-	}
-	else
-	{
+	//if (Fullscreen)
+	//{
+		//::gXoffset = parent()->w() / 2 - 240 * MultFact;
+		//::gYoffset = (parent()->h() - MENU_HEIGHT - 20 - 200 * MultFact) / 3 + MENU_HEIGHT+1;
+	//}
+	//else
+	//{
 		::gXoffset = 5;
 		::gYoffset = MENU_HEIGHT+5;
-	}
+	//}
 
 	gRectsize = ::gRectsize;
 	gXoffset = ::gXoffset;
