@@ -430,20 +430,10 @@ extern "C" void resize_window()
 		DispHeight = 64;
 	}
 
-#ifdef ZIPIT_Z2
-	MainWin->fullscreen();
-#else
 	if (Fullscreen)
 	{
 		MainWin->fullscreen();
-#ifdef WIN32
-		int sx, sy, sw, sh;
-		Fl::screen_xywh(sx, sy, sw, sh);
-		if ((sh == 480) || (sh == 800) || (sh == 600) || (sh == 768) || (sh == 1024) || (sh == 1280))
-			hiddenTaskBarAdjust = 4;
-		MainWin->resize(sx, sy, sw, sh - hiddenTaskBarAdjust);
-#endif	/* WIN32 */
-		MultFact = min(MainWin->w()/240, MainWin->h()/128);
+		//MultFact = min(MainWin->w()/240, MainWin->h()/128);
 		gpDisp->MultFact = MultFact;
 	}
 	else
@@ -472,7 +462,6 @@ extern "C" void resize_window()
 			90*gpDisp->DisplayMode+2,gpDisp->DispHeight*gpDisp->MultFact + 
 			50*gpDisp->DisplayMode + MENU_HEIGHT + 22);
 	}
-#endif	/* ZIPIT_Z2 */
 
 	Menu->resize(0, 0, MainWin->w(), MENU_HEIGHT-2);
 	gpDisp->resize(0, MENU_HEIGHT, MainWin->w(), MainWin->h() - MENU_HEIGHT - 20);
@@ -2143,7 +2132,7 @@ void init_display(void)
 	// Check if we are running in full screen mode
 	if (MultFact == 5)
 	{
-		//MainWin->fullscreen();
+		MainWin->fullscreen();
 #ifdef WIN32
 		int sx, sy, sw, sh;
 		Fl::screen_xywh(sx, sy, sw, sh);
