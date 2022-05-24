@@ -5,6 +5,15 @@ VirtualT Release.txt
 This file lists the changes and additions for each of the versions of VirtualT since v0.3
 
 
+
+=====================
+v1.7.3 5/23/2022
+=====================
+
+1. FULLSCREEN MODE!  Thanks Yatli!
+2. Reduced white space around borders
+3. Fix to build on most Linux systems, including the Manjaro Arm images for Devterm.
+
 =====================
 v1.7.2 4/17/2022
 =====================

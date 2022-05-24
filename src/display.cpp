@@ -1346,7 +1346,6 @@ Fl_Menu_Item menuitems[] = {
 		{ "2x",  0, cb_2x, (void *) 2, FL_MENU_RADIO },
 		{ "3x",  0, cb_3x, (void *) 3, FL_MENU_RADIO | FL_MENU_VALUE},
 		{ "4x",  0, cb_4x, (void *) 4, FL_MENU_RADIO },
-		{ "DevTerm",  0, cb_5x, (void *) 5, FL_MENU_RADIO },
 		{ "Fullscreen",  0, cb_fullscreen, (void *) 6, FL_MENU_RADIO | FL_MENU_DIVIDER},
 		{ "Framed",  0, cb_framed, (void *) 1, FL_MENU_TOGGLE|FL_MENU_VALUE },
 		{ "Solid Chars",  0, cb_solidchars, (void *) 1, FL_MENU_TOGGLE | FL_MENU_DIVIDER},

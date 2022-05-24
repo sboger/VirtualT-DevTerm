@@ -3,7 +3,7 @@ VirtualT-DevTerm is a TRS-80 Model 100/102/200 emulator by [deuce](https://sourc
 
 Original source comes from the now defunct project at: https://sourceforge.net/projects/virtualt/
 
-**New: v1.7.2 4/17/2022 - "DevTerm" Emulation->Display option. Almost fullscreen.**
+**New: v1.7.3 5/23/2022 - Fullscreen mode! Thanks Yatli!
 
 Instructions to run pre-built binary (Runs on A06. A04 untested.):
 
@@ -12,7 +12,7 @@ Instructions to run pre-built binary (Runs on A06. A04 untested.):
 * cd VirtualT-DevTerm
 * ./virtualt-devterm
 
-Instructions for building on DevTerm A04 and A06:
+Instructions for building on DevTerm A04 and A06 (Recommended):
 
 * sudo apt install libfltk1.3-dev libjpeg-dev libpng-dev libxft-dev libxinerama-dev libxext-dev
 * git clone https://github.com/sboger/VirtualT-DevTerm.git
@@ -22,7 +22,7 @@ Instructions for building on DevTerm A04 and A06:
 * ./virtualt-devterm
 
 Notes:
-* VirtualT-DevTerm starts in 3x display size by default. Click the Emulation menu and then the Display menu to choose 1x, 2x, 4x, or DevTerm display size. There is currently a bug with Devterm display size that places the window offscreen. To work around this, just close and re-open the application. 
+* VirtualT-DevTerm starts in 3x display size by default. Click the Emulation menu and then the Display menu to choose 1x, 2x, 4x, or FULLSCREEN. Fullscreen is quirky. It might show the background or windows at the very bottom of the screen. It also doesn't restart into fullscreen mode properly - you'll need to click "fullscreen" again even though the button is selected.
 
 
 Screenshots:
@@ -40,7 +40,8 @@ Todo:
 * ~~Makefile cleanup to allow building on A04 (in progress)~~
 * ~~Cruft cleanup. Going DevTerm specific.~~
 * Make deb packages
-* Fullscreen fix (DevTerm Display mode for now)
+* Full-screen/select button cleanup
+* ~~Fullscreen fix~~
 
 
 Nostalgia (from https://en.wikipedia.org/wiki/TRS-80_Model_100):
